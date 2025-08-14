@@ -46,7 +46,7 @@ It combines **structured metadata analysis**, **natural language processing (NLP
 
 ## 🚧 Challenges  
 
-- **Data Scale:** Initial dataset exceeded 6 million rows and 119 columns; filtering and column pruning reduced it to ~972K rows and 68 features.  
+- **Data Scale:** Initial dataset exceeded 6 million rows and 119 columns; filtering and column pruning reduced it to ~1 million rows and 68 features.  
 - **Processing Limits:** Year-wise file splitting and chunked FOI processing were required due to memory constraints.  
 - **Evaluation Scope:** Automatic evaluation was based on a small held-out query set; larger-scale testing remains for future work.  
 
